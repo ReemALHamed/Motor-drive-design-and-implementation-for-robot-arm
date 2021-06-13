@@ -4,7 +4,7 @@ Servo myServo2;
 Servo myServo3;
 Servo myServo4;
 Servo myServo5;
-int pos = 0; // analog pin used to connect the potentiometer
+int pos = 0; // variable used to change the servo position
 
 void setup()
 {
@@ -18,8 +18,8 @@ void setup()
 
 void loop()
 {
-  for(pos=0;pos<=90;pos++){
-    // sets the servos position according to the scaled value
+  for(pos=0;pos<=90;pos++){//ascending loop
+    // sets the servo position from 0 to 90 gradually
     myServo1.write(pos);
     myServo2.write(pos);
     myServo3.write(pos);
@@ -28,8 +28,8 @@ void loop()
     delay(30);
   }
   
-  for(pos=90;pos>=0;pos--){
-    // sets the servo position according to the scaled value
+  for(pos=90;pos>=0;pos--){//descending loop
+    // sets the servo position from 90 to 0 gradually
     myServo1.write(pos);
     myServo2.write(pos);
     myServo3.write(pos);
