@@ -10,4 +10,6 @@ Then simultaneously move the servos from the initial position using an increasin
 ### Code 
 ![code](arduino_robot_arm1.ino)
 ### Circuit diagram 
-![circuit](arduino_robot_arm.png)
+![circuit_pic](arduino_robot_arm.png)
+### Circuit video 
+![circuit_vid](https://user-images.githubusercontent.com/85634099/121938174-25335480-cd54-11eb-95d9-781eba5b7466.mp4)
